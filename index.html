@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+
+<h2 align="center">Registration form</h2>
+
+<form id="form" onsubmit="return validate()">
+  <table border="0" align="center">
+    <tbody>
+      <tr>
+        <td><label for="fname">First name: </label></td>
+        <td><input type="text" id="fname" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="lname">Last name: </label></td>
+        <td><input type="text" id="lname" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Email: </label></td>
+        <td><input type="email" id="email" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="mobile">Mobile No.: </label></td>
+        <td><input type="number" id="mobile" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="address">Address: </label></td>
+        <td><input type="text" id="address" required /></td>
+      </tr>
+
+      <tr>
+        <td><label for="city">City: </label></td>
+        <td><input type="text" id="city" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="state">State: </label></td>
+        <td><input type="text" id="state" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="country">Country: </label></td>
+        <td><input type="text" id="country" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="pincode">Pincode:</label></td>
+        <td><input type="text" id="pincode" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="dob">DOB:</label></td>
+        <td><input type="date" id="dob" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td>
+          <select id="gender">
+            <option value="male"> Male </option>
+            <option value="female"> Female </option>
+            <option value="other"> Other </option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label for="linkedin">LinkedIn URL:</label></td>
+        <td><input type="url" id="linkedin" /></td>
+      </tr>
+
+      <tr>
+        <td><label for="twitter">Twitter URL:</label></td>
+        <td><input type="url" id="twitter" /></td>
+      </tr>
+
+      <tr>
+        <td align="left"><input id="Submit" type="Submit" value="Submit" /></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+</html>
